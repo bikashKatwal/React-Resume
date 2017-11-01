@@ -1,0 +1,79 @@
+{
+  "name": "Bikash Katwal",
+  "userName":"bikashkatwal",
+  "profileimage":"assets/images/profile.jpg",
+  "phone": "0406 613 352",
+  "email": "bikashkatwal9@gmail.com",
+  "linkedIn":"https://www.linkedin.com/in/bikash-katwal-394881ba/",
+  "github": "https://github.com/bikashKatwal",
+  "careerObjective":"I have recently completed a Master of Information Technology from Charles Sturt University, specializing in Software Design and Development. I am an enthusiastic developer with three years of work experience (Nepal). I am currently looking for an opportunity to extend my knowledge as a Junior Web Developer / Software Developer/ Database Developer. I look forward to this opportunity because I love the idea of developing cutting edge software products and I will be able to start delivering real results from day one.",
+  "educations":[
+    {
+      "degree":"Professional Year",
+      "university":"Performance Education, Melbourne",
+      "period":"August 2017 - Present"
+    },
+    {
+      "degree":"Master of Information Technology",
+      "university":"Charles Sturt University, Melbourne, Australia",
+      "period":"2015 – 2017"
+    },
+    {
+      "degree":"Bachelor of Information Technology",
+      "university":"College of Information Technology, Kathmandu, Nepal",
+      "period":"2007 – 2011"
+    }
+  ],
+  "experiences" : [
+    {
+      "title": "Application Developer",
+      "period": "August 2012 - June 2015",
+      "company": "Avionte Staffing Solutions Pty. Ltd, Kathmandu, Nepal",
+      "companyUrl": "http://www.avionte.com/",
+      "companyDetails": "Avionte offers a software solution for staffing companies. I worked from Nepal as a developer for creating web portals and desktop applications in .Net using Visual Studio and SQL Server, C#, and Entity Framework. I was actively involved in the enhancement of the project and designing database."
+    },
+    {
+      "title": "Application Developer",
+      "period": "September 2011 - August 2012",
+      "company": "Softech Foundation Pvt. Ltd, Kathmandu, Nepal",
+      "companyUrl": "http://softechfoundation.com/",
+      "companyDetails": ""
+    }
+  ],
+  "projects":[
+    {
+      "projectName":"University Grading System",
+      "uniName":"Charles Sturt University, Melbourne",
+      "objective":"Creation of a University Grading System application used for keeping record of students’ marks. Users enter the student marks which calculates the grade and displays it in the table. Users can search the record, update and delete the record.",
+      "tools":"Eclipse, MySQL",
+      "duties":"Writing Java Code and SQL scripts, Designing Database, Testing and Documentation",
+      "result": "Distinction"
+    },
+    {
+      "projectName":"Prediction of Natural Disaster",
+      "uniName":"Charles Sturt University, Melbourne",
+      "objective":"Data is collected based on the latitude and longitude provided of specific location by the user. The data is retrieved using the start and end date which means that the data is between the date ranges and of specified latitude and longitude. This data is further trained and processed using back propagation neural network algorithm. The obtained output is the accuracy rate of risk in percentage and the location that will be affected.",
+      "tools":"Python",
+      "duties":"Writing Python code, Research and analyse weather data, Implement Back propagation algorithm for analysing data and Documentation",
+      "result": "High Distinction"
+    }
+  ],
+  "skills":[
+    {
+      "skillName": "Java",
+      "percentage": "50%"
+    },
+    {
+      "skillName": "C#",
+      "percentage": "50%"
+    },
+    {
+      "skillName": "SQL Server & MySQL",
+      "percentage": "80%"
+    },
+    {
+      "skillName": "React",
+      "percentage": "5%"
+    }
+  ]
+}
