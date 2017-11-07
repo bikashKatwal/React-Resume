@@ -30,21 +30,36 @@
       "period": "August 2012 - June 2015",
       "company": "Avionte Staffing Solutions Pty. Ltd, Kathmandu, Nepal",
       "companyUrl": "http://www.avionte.com/",
-      "companyDetails": "Avionte offers a software solution for staffing companies. I worked from Nepal as a developer for creating web portals and desktop applications in .Net using Visual Studio and SQL Server, C#, and Entity Framework. I was actively involved in the enhancement of the project and designing database."
+      "companyDetails": ["Avionte offers a software solution for staffing companies.",
+                          " I worked from Nepal as a developer for creating web portals and desktop applications in .Net using Visual Studio and SQL Server, C#, and Entity Framework.",
+                          " I was actively involved in the enhancement of the project and designing database."],
+      "joblist":["Worked effectively within a team by following Agile Methodologies and SDLC",
+                  "Created web portals for the online applicants","Developed web forms and win forms using HTML and JavaScript",
+                  "Developed custom web forms - eDocument (like I9, W4 and many more) for the client","Created Standard reports and Custom reports-SSRS",
+                  "Writing SQL scripts, Stored Procedures, views and functions","Created automated e-document tools which has reduced the work pressure of developers by 40%",
+                  "Tested frequently, fixed bugs/ defects, and documented applications"]
     },
     {
       "title": "Application Developer",
       "period": "September 2011 - August 2012",
       "company": "Softech Foundation Pvt. Ltd, Kathmandu, Nepal",
       "companyUrl": "http://softechfoundation.com/",
-      "companyDetails": ""
+      "companyDetails": "",
+      "joblist":["Development of Accrual Accounting System using C#.NET and ASP.NET technology",
+        "Write SQL scripts for the business logic of the application",
+        "Created Stored Procedures, Views, and Functions for reports","Created Standard reports and Custom reports-SSRS",
+        "Design reports using Crystal Reports","Designed Database, ER Diagram, Data Flow Diagram",
+        "Review and repair legacy code","Provided training to the users","Testing, Documentation, integration and deployment of software",
+        "Technologies Used: C#, Asp.NET, JavaScript, Html, Crystal Report"]
     }
   ],
   "projects":[
     {
       "projectName":"University Grading System",
       "uniName":"Charles Sturt University, Melbourne",
-      "objective":"Creation of a University Grading System application used for keeping record of students’ marks. Users enter the student marks which calculates the grade and displays it in the table. Users can search the record, update and delete the record.",
+      "objective":["Creation of a University Grading System application used for keeping record of students’ marks.",
+                  " Users enter the student marks which calculates the grade and displays it in the table.",
+                  " Users can search the record, update and delete the record."],
       "tools":"Eclipse, MySQL",
       "duties":"Writing Java Code and SQL scripts, Designing Database, Testing and Documentation",
       "result": "Distinction"
@@ -52,7 +67,10 @@
     {
       "projectName":"Prediction of Natural Disaster",
       "uniName":"Charles Sturt University, Melbourne",
-      "objective":"Data is collected based on the latitude and longitude provided of specific location by the user. The data is retrieved using the start and end date which means that the data is between the date ranges and of specified latitude and longitude. This data is further trained and processed using back propagation neural network algorithm. The obtained output is the accuracy rate of risk in percentage and the location that will be affected.",
+      "objective":["Data is collected based on the latitude and longitude provided of specific location by the user.",
+                  " The data is retrieved using the start and end date which means that the data is between the date ranges and of specified latitude and longitude.",
+                  " This data is further trained and processed using back propagation neural network algorithm.",
+                  " The obtained output is the accuracy rate of risk in percentage and the location that will be affected."],
       "tools":"Python",
       "duties":"Writing Python code, Research and analyse weather data, Implement Back propagation algorithm for analysing data and Documentation",
       "result": "High Distinction"
@@ -72,8 +90,8 @@
       "percentage": "80%"
     },
     {
-      "skillName": "React",
-      "percentage": "5%"
+      "skillName": "React ",
+      "percentage": "25%"
     }
   ]
 }

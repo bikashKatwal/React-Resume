@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
+import resume from './resume.json';
+import JobList from './JobList';
 
 class Experience extends Component{
+    renderJobList(){
+        let jobItem=[];
+        let jobList=[];
+        resume.experiences.map((item, index)=>{
+            //console.log(item.joblist);
+           jobList.push(item.joblist);
+        });
+        return jobList;
+    }
+
     render(){
         return(
             <div className="item">
@@ -13,6 +25,7 @@ class Experience extends Component{
                 </div>
                 <div className="details">
                     <p>{this.props.item.companyDetails}</p>
+                    {this.renderJobList()}
                 </div>
             </div>
         );

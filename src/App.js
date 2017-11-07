@@ -6,6 +6,7 @@ import Education from "./Education";
 import UniProjects from "./Projects";
 import Skills from "./Skills";
 
+
 class App extends Component {
   renderExperiences(){
     let resultArray=[];
@@ -76,6 +77,7 @@ class App extends Component {
               <h2 className="section-title"><i className="fa fa-briefcase"></i>Experiences</h2>
 
                 {this.renderExperiences()}
+
 
             </section>
 
