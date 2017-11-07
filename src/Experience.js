@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import resume from './resume.json';
-import JobList from './JobList';
+
+//stateless component --- here we just diplay the data without any logic
+const  JobListItems = (({job}) =>
+    <div className='JobListItems'>
+        {job}
+    </div>);
 
 class Experience extends Component{
-    renderJobList(){
-        let jobItem=[];
-        let jobList=[];
-        resume.experiences.map((item, index)=>{
-            //console.log(item.joblist);
-           jobList.push(item.joblist);
-        });
-        return jobList;
-    }
 
     render(){
+        //extracting the data passed from its parent component
+        const { item } = this.props;
         return(
             <div className="item">
                 <div className="meta">
@@ -25,7 +22,10 @@ class Experience extends Component{
                 </div>
                 <div className="details">
                     <p>{this.props.item.companyDetails}</p>
-                    {this.renderJobList()}
+
+                    <ul>
+                        {item.joblist.map((job, index)=> <li key={index}><JobListItems  job={job} /></li>)}
+                    </ul>
                 </div>
             </div>
         );
