@@ -10,7 +10,8 @@ class Experience extends Component{
 
     render(){
         //extracting the data passed from its parent component
-        const { item } = this.props;
+        //const { item } = this.props;
+        //console.log(item);
         return(
             <div className="item">
                 <div className="meta">
@@ -24,7 +25,8 @@ class Experience extends Component{
                     <p>{this.props.item.companyDetails}</p>
 
                     <ul>
-                        {item.joblist.map((job, index)=> <li key={index}><JobListItems  job={job} /></li>)}
+                        {this.props.item.joblist.map((job, index)=>
+                            <li key={index}><JobListItems  job={job} /></li>)}
                     </ul>
                 </div>
             </div>
